@@ -22,6 +22,9 @@ class Cat extends Animal {
     String desc;
     Cat() {
         this.desc = "고양이 입니다.";
+//        super.desc = "고양이 입니다.";
+//        부모클래스 생성자를 이요하는 방법이다.
+//        super("고양이 입니다.");
     }
 }
 

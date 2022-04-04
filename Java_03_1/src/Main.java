@@ -74,7 +74,5 @@ public class Main {
         int a = 100;
         String aResult = (a == 100)? "yes" : "no";
         System.out.println("aResult = " + aResult);
-
     }
-
 }
